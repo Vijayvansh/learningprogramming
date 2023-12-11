@@ -1,5 +1,12 @@
 #include <iostream>
+class Test{
+   public:
+      void sayHello(){
+        std::cout<<"Hello\n";
+      }
+};
 int main(){
-    std::cout<<"Repo is created";
+    Test t;
+    t.sayHello();
     return -1;
 }
